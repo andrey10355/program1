@@ -1,2 +1,5 @@
-п»ї// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+Console.Write("Введите число:");   // подсказка для пользователя
+int number = int.Parse(Console.ReadLine());  //считывает с консоли
+int result = number * number;  // храним результат число само на себя
+Console.WriteLine ("квадрат числа = " + result);   //склеивание строки через +
+
