@@ -10,7 +10,7 @@ int GetNumber(string message) // пишем передаваемое сообщ�
     return num;
 }
 
-void Square(int num)
+void Square(int num) // печатаем последовательного квадраты числа от 1 до N
 {
 int count = 1;
 while (count <= num)
@@ -25,5 +25,5 @@ else
 
 
 
-int n = GetNumber("Input number: ");
-Square(n);
+int n = GetNumber("Input number: "); // Запрашиваем переменную n у пользователя через фунцию GetNumber
+Square(n);  //Запускаем функцию печати квадратов
