@@ -4,13 +4,13 @@
 // A (3,6); B (2,1) -> 5,09
 // A (7,-5); B (1,-1) -> 7,21
 
-int Coordinata(string message)
+int Coordinata(string message) // пишем передаваемое сообщение - запрашиваем у пользователя число
 {
     Console.Write(message + " ");
     int num = int.Parse(Console.ReadLine()!);
     return num;
 }
-double Distance (int a, int b, int c, int d)
+double Distance (int a, int b, int c, int d) // считываем расстояние на оси координат между двумя точками и на выходе выдаем расстояние
 {
     double distance = Math.Sqrt((a - c) * (a - c) + (b - d) * (b - d));
     return distance;
