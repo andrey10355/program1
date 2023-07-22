@@ -5,7 +5,7 @@
 // 82 -> 10
 // 9012 -> 12
 
-Console.WriteLine($"\n");
+Console.WriteLine($"\n Return the sum of the digits");
 Console.Write("Enter number: ");
 int numberA = Convert.ToInt32(Console.ReadLine());
 
