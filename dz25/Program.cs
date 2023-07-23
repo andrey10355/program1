@@ -4,15 +4,16 @@
 // 2, 4 -> 16
 // Вариант 1.
 
-Console.WriteLine($"\nRaising a number A to a natural power B");
+Console.WriteLine($"\nVariant 1. Raising a number A to a natural power B");
 
 int Exponentiation(int numberA, int numberB)
 {
     int result =1;
     for(int i=1; i <= numberB; i++)
     {
-        result =result * numberA;
+        result = result * numberA;
     }
+   
     return result;
 }
 Console.Write("Enter number A: ");
