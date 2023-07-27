@@ -9,10 +9,15 @@ int Promt(string message) // создаём метод для печати
     int num = int.Parse(Console.ReadLine()!);
     return num;
 }
-int num = Promt("Enter number1: ");
-int count = 0;
-for (count = 0; num > 0; count++)
+int Razyd(int a)
 {
-    num = num / 10;
+   int count = 0;
+for (count = 0; a > 0; count++)
+{
+    a = a / 10; 
 }
-Console.WriteLine(count);
+return count;
+}
+int num = Promt("Enter number1: ");
+
+Console.WriteLine($"Количество цифр в числе = {Razyd(num)}");
