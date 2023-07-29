@@ -4,4 +4,16 @@
 // 34, 5 -> не кратно, остаток 4
 // 16, 4 -> кратно.
 
+Console.Write("Enter first number: "); //"Введите первое число:"
+int a = int.Parse(Console.ReadLine());
+Console.Write("Enter second number: "); //"Введите второе число:"
+int b = int.Parse(Console.ReadLine());
 
+if (b % a == 0)
+{
+    Console.WriteLine("multiple"); //кратно
+}
+else
+{
+    Console.WriteLine("not a multiple, remainder = " + (b % a)); //не кратно, остаток
+}
