@@ -15,7 +15,7 @@ Console.WriteLine($"\nsum of positive numbers = {resSum[0]}; sum of negative num
 
 int GetNum(string message)
 {
-    Console.WriteLine(message);
+    Console.Write(message);
     int num = int.Parse(Console.Readline());
     return num;
 }
