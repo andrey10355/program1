@@ -4,13 +4,13 @@
 
 //b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5)
 
-Console.WriteLine("Введите значение b1"); // Введите значение b1
+Console.WriteLine("Enter value b1"); // Введите значение b1
 double b1 = Convert.ToInt32(Console.Readline());
-Console.WriteLine("Введите значение k1"); // Введите значение k1
+Console.WriteLine("Enter value k1"); // Введите значение k1
 double k1 = Convert.ToInt32(Console.Readline());
-Console.WriteLine("Введите значение b2"); // Введите значение b2
+Console.WriteLine("Enter value b2"); // Введите значение b2
 double b2 = Convert.ToInt32(Console.Readline());
-Console.WriteLine("Введите значение k2"); // Введите значение k2
+Console.WriteLine("Enter value k2"); // Введите значение k2
 double k2 = Convert.ToInt32(Console.Readline());
 
 double x = ( -b2 + b1) / (-k1 + k2);
